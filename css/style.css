@@ -1,0 +1,3169 @@
+html{
+	overflow-x: hidden !important;
+}
+
+a:hover, a:focus{
+	color: #5ad0c6 !important;
+}
+
+
+/*----------------------------------------Header Start----------------------------------------*/
+@media screen and (min-width: 1480px){
+.header{
+	background: linear-gradient(to top, #4278bb, #2650a6) no-repeat;
+	height: 900px;
+	position: relative;
+	min-height: 800px;
+
+}
+[if Webkit].header{
+	background-color: #2650a6 !important ;
+	height: 900px;
+	position: relative;
+	min-height: 800px;
+}
+
+
+.nav-menu a{
+	font-size: 13pt;
+	color: #adc1ea;
+	z-index: 10;
+}
+.nav-menu {
+	background-color: #25429c;
+	text-align: center;
+	height: 60px;
+	min-width: 50%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+ul li{
+	display: inline-block;
+	margin-right: 2%;
+}
+ul li{
+	display: inline;
+}
+
+.logo{
+	text-align: center;
+	padding-top: 60px;
+	z-index: 10;
+}
+.textLogo{
+	text-align: center;
+	color: #fff;
+		padding-top: 60px;
+}
+.mainText{
+	font-size: 60pt;
+	font-family: "OpenSansLight";
+
+}
+.rulesText{
+	font-size: 13pt;
+	font-family: "OpenSansRegular";
+}
+.imgMila{
+	width: 100%;
+	padding-bottom: 0px;
+	margin-top: 20px;
+}
+.MilaLandscape{
+	width: 100%;
+	z-index: 10;
+	text-align: center;
+	margin-top: 18px;
+}
+
+.MilaPeople{
+	z-index: 9;
+	margin-left: 60%;
+	margin-top: -22.5%;
+	
+}
+
+.button{
+	position: absolute;
+	top: 60%;
+	left: 42%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 330px;
+	height: 60px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.button a{
+	font-size: 20pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+.grow {
+	display: inline-block;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.grow:hover, .grow:focus, .grow:active {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/*----------------------------------------Header End----------------------------------------*/
+
+
+
+/*----------------------------------------Rules Start----------------------------------------*/
+
+.rules{	
+	min-height: 490px;
+	max-height: 590px;
+	background-color: #fff;
+	margin-bottom: 5%;
+}
+.block1{
+
+}
+
+.block1 h1{
+	padding-top: 20%;
+	padding-bottom: 5%;
+	font-size: 50pt;
+	font-family: "OpenSansLight";
+}
+
+.block1 p{
+	font-size: 17pt !important;
+	font-family: Open Sans; 
+	font-family: "OpenSansLight";
+}
+.ButtonQ{
+	margin-top: 20px;
+}
+.block2 .item1 .item2 .item3{
+	position: relative;
+	margin-top: 20%;
+}
+
+.item1{
+	position: relative;
+	z-index: 12;
+	margin-top: 240px;
+	margin-left: 160px;
+}
+.item2{
+	position: relative;
+	margin-top: -340px;
+	z-index: 11;
+}
+.item3{
+	position: relative;
+	margin-top: -500px;
+	margin-left: 250px;
+	z-index: 10;
+}
+.buttonq{
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #3a66b0;
+	width: 330px;
+	height: 60px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.buttonq a{
+	font-size: 20pt;
+	font-family: "OpenSansRegular";
+	color: #fff;
+	text-decoration: none !important;
+}
+/*----------------------------------------Rules End----------------------------------------*/
+
+
+
+/*----------------------------------------Prizes Start----------------------------------------*/
+.prizes{
+	padding-top: 6%;
+	min-height: 490px;
+	max-height: 590px;
+	background-color: #e0ebef;
+	position: relative;
+}
+
+.prizes p{
+		position: relative;
+	z-index: 12;
+	font-size: 15pt !important;
+	font-family: "OpenSansRegular";
+
+}
+.prizes h1{
+		position: relative;
+	z-index: 12;
+	font-size: 48pt;
+	font-family: "OpenSansLight";
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+.MilaLandscape1{
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin-top: -20.5%;
+}
+.MilaPeople1{
+	position: relative;
+	z-index: 10;
+	margin-left: 10%;
+	margin-top: -150px;
+}
+.col-lg-4{
+	padding-top: 10px;
+}
+/*----------------------------------------Prizes End----------------------------------------*/
+
+
+
+/*----------------------------------------additional_prizes Start----------------------------------------*/
+
+.additional_prizes{
+	background-color: #fff;
+	min-height: 800px;
+	max-height: 900px;
+	position: relative;
+
+}
+
+.name_div h1{
+	text-align: center;
+	font-size: 49,91pt;
+}
+
+.otstup{
+	padding-left: 20%;
+	text-align: center;
+}
+.blocktext{
+	margin-top: 10%;
+	font-size: 17pt;
+	text-align: left;
+	font-family: "OpenSansRegular";
+}
+.circle{
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	padding: 7px;
+	background-color: #ff1f69;
+	border-radius: 80px;
+	color: #fff;
+}
+.circle p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20pt;
+	font-weight: bold;
+}
+.buttonx{
+	position: absolute;
+	left: 42%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 330px;
+	height: 60px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.buttonx a{
+	font-size: 20pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+/*----------------------------------------additional_prizes End----------------------------------------*/
+
+
+
+
+
+
+
+
+/*----------------------------------------footer End----------------------------------------*/
+
+.footer{
+	height: 100%;
+	width: 100%;
+	background-color: #ff1f69;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.itmg{
+	padding-top: 20px;
+}
+.text2 p{
+	text-align: left;
+	font-family: "OpenSansRegular";
+	font-size: 12pt !important;
+}
+
+/*----------------------------------------footer End----------------------------------------*/
+
+}
+
+
+/*----------------------------------------optimization 320 start--------------------------------------------------*/   /*       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!    */
+
+
+
+@media screen and (min-width: 380px){
+/*---------------------header-------------------*/
+
+.header{
+	background: linear-gradient(to top, #4278bb, #2650a6) no-repeat;
+	background-color: #2650a6;
+	height: 600px;
+	position: relative;
+	min-height: 600px;
+
+}
+
+.nav-menu a{
+	font-size: 6pt;
+	color: #adc1ea;
+	z-index: 10;
+	margin-left: -5px;
+
+}
+.nav-menu {
+	background-color: #25429c;
+	text-align: center;
+	height: 45px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	margin-left: -30px;
+}
+ul li{
+	display: inline-block;
+	
+}
+ul li{
+	display: inline;
+}
+
+.logo{
+	text-align: center;
+	padding-top: 10px;
+	z-index: 10;
+	height: 100px;
+}
+.textLogo{
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+}
+.mainText{
+	font-size: 25pt;
+	font-family: "OpenSansLight";
+
+}
+.rulesText{
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+}
+.imgMila{
+	width: 100%;
+	padding-bottom: 0px;
+	margin-top: 20px;
+}
+.MilaLandscape{
+	width: 100%;
+	text-align: center;
+	margin-top: 140px;
+}
+
+.MilaPeople{
+	position: relative;
+	z-index: 19;
+	margin-left: 40%;
+	margin-top: -200px;
+	height: 180px;
+	
+}
+
+.button{
+	position: absolute;
+	top: 70%;
+	left: 25%;
+	right: 10%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.button a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+/*---------------------end-------------------*/
+
+/*---------------------rules-------------------*/
+.rules{	
+	min-height: 490px;
+	max-height: 590px;
+	background-color: #fff;
+	margin-bottom: 5%;
+}
+.block1{
+
+}
+
+.block1 h1{
+	position: relative;
+	z-index: 14;
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	font-size: 30pt;
+	font-family: "OpenSansLight";
+}
+
+.block1 p{
+	position: relative;
+	z-index: 14;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 10pt !important;
+	font-family: Open Sans; 
+	font-family: "OpenSansLight";
+}
+.ButtonQ{
+	margin-top: 20px;
+}
+.block2 .item1 .item2 .item3{
+	position: relative;
+	margin-top: 20%;
+}
+
+.item1{
+	position: relative;
+	z-index: 12;
+	margin-top: 60px;
+	margin-left: 160px;
+	height: 200px;
+}
+.item2{
+	position: relative;
+	margin-top: -340px;
+	z-index: 11;
+	height: 170px;
+}
+.item3{
+	position: relative;
+	margin-top: -500px;
+	margin-left: 250px;
+	z-index: 10;
+	height: 200px;
+}
+.buttonq{
+	position: absolute;
+	top: 100%;
+	left: 35%;
+	text-align: center;
+	z-index: 100;
+	background-color: #3a66b0;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.buttonq a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: #fff;
+	text-decoration: none !important;
+}
+/*---------------------end-------------------*/
+
+
+/*---------------------prizes-------------------*/
+
+.prizes{
+	padding-top: 6%;
+	min-height: 590px;
+	max-height: 590px;
+	background-color: #e0ebef;
+	position: relative;
+}
+
+
+.prizes p{
+	position: relative;
+	font-size: 15pt !important;
+	font-family: "OpenSansRegular";
+	z-index: 14;
+	padding-left: 5%;
+	text-align: center;
+
+
+}
+.prizes h1{
+	position: relative;
+	z-index: 14;
+	font-size: 30pt;
+	font-family: "OpenSansLight";
+	margin-bottom: 10%;
+	margin-top: 5%;
+	padding-left: 5%;
+	text-align: center;
+}
+.MilaLandscape1{
+	width: 100%;
+	margin-top: -100px;
+
+}
+.MilaPeople1{
+	position: relative;
+	z-index: 1;
+	margin-left: 5%;
+	margin-top: 30px;
+	height: 200px;
+
+}
+.col-lg-4{
+	padding-top: 00px;
+}
+.col-lg-6{
+	margin-top: 60px;
+}
+
+
+/*---------------------end---------------------*/
+
+/*---------------------add_prizes-------------------*/
+
+.additional_prizes{
+	background-color: #fff;
+	min-height: 800px;
+	max-height: 900px;
+
+}
+
+.name_div h1{
+	text-align: center;
+	font-size: 49,91pt;
+}
+
+.otstup{
+	padding-left: 5%;
+	text-align: center;
+}
+.blocktext{
+	margin-top: 10%;
+	font-size: 15pt;
+	text-align: left;
+	font-family: "OpenSansRegular";
+}
+.text{
+	margin-top: -20px;
+	margin-left: -20px;
+	text-align: center;
+}
+.circle{
+	margin-top: -20px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	padding: 7px;
+	margin-left: 40%;
+	background-color: #ff1f69;
+	border-radius: 80px;
+	color: #fff;
+	position: relative;
+	z-index: 10;
+}
+.circle p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 15pt;
+	font-weight: bold;
+}
+.buttonx{
+	position: absolute;
+	left: 30%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.buttonx a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+.col-lg-3{
+	margin-bottom: 50px !important;
+}
+.additional_prizes img {
+	height: 150px;
+	margin-left: -30px;
+}
+/*---------------------end---------------------*/
+
+/*----------------------------------------footer----------------------------------------*/
+
+.footer{
+	margin-top: 500px;
+	height: 100%;
+	width: 100%;
+	background-color: #ff1f69;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.itmg{
+	padding-top: 20px;
+}
+.text2 p{
+	text-align: left;
+	font-family: "OpenSansRegular";
+	font-size: 12pt !important;
+}
+
+/*----------------------------------------End----------------------------------------*/
+
+}
+
+
+
+
+/*----------------------------------------optimization 320 end--------------------------------------------------*/
+
+
+
+
+/*----------------------------------------optimization 480 start------------------------------------------------------------------------------------------*/
+
+
+
+@media screen and (min-width: 480px){
+/*---------------------header-------------------*/
+html{
+	-webkit-text-size-adjust: none;
+}
+.header{
+	background: linear-gradient(to top, #4278bb, #2650a6) no-repeat !important;
+	background-color: #4278bb;
+	height: 600px;
+	position: relative;
+	min-height: 600px;
+
+}
+
+.nav-menu a{
+	font-size: 8pt;
+	color: #adc1ea;
+	z-index: 10;
+}
+.nav-menu {
+	background-color: #25429c;
+	text-align: center;
+	height: 40px;
+	min-width: 50%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	margin-left: -20px;
+}
+ul li{
+	display: inline-block;
+	
+}
+ul li{
+	display: inline;
+}
+
+.logo{
+	text-align: center;
+	padding-top: 10px;
+	z-index: 10;
+}
+.textLogo{
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+}
+.mainText{
+	font-size: 28pt;
+	font-family: "OpenSansLight";
+
+}
+.rulesText{
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+}
+.imgMila{
+	width: 100%;
+	padding-bottom: 0px;
+	margin-top: 20px;
+}
+.MilaLandscape{
+	width: 100%;
+	z-index: 10;
+	text-align: center;
+	margin-top: 140px;
+}
+
+.MilaPeople{
+	z-index: 9;
+	margin-left: 40%;
+	margin-top: -220px;
+	height: 200px;
+	
+}
+
+.button{
+	position: absolute;
+	top: 65%;
+	left: 30%;
+	right: 10%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.button a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+/*---------------------end-------------------*/
+
+/*---------------------rules-------------------*/
+.rules{	
+	min-height: 490px;
+	max-height: 590px;
+	background-color: #fff;
+	margin-bottom: 5%;
+}
+.block1{
+
+}
+
+.block1 h1{
+	position: relative;
+	z-index: 14;
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	font-size: 30pt;
+	font-family: "OpenSansLight";
+}
+
+.block1 p{
+	position: relative;
+	z-index: 14;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 10pt !important;
+	font-family: Open Sans; 
+	font-family: "OpenSansLight";
+}
+.ButtonQ{
+	margin-top: 20px;
+}
+.block2 .item1 .item2 .item3{
+	position: relative;
+	margin-top: 20%;
+}
+
+.item1{
+	position: relative;
+	z-index: 12;
+	margin-top: 60px;
+	margin-left: 160px;
+}
+.item2{
+	position: relative;
+	margin-top: -340px;
+	z-index: 11;
+}
+.item3{
+	position: relative;
+	margin-top: -500px;
+	margin-left: 250px;
+	z-index: 10;
+}
+.buttonq{
+	position: absolute;
+	top: 100%;
+	left: 35%;
+	text-align: center;
+	z-index: 100;
+	background-color: #3a66b0;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.buttonq a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: #fff;
+	text-decoration: none !important;
+}
+/*---------------------end-------------------*/
+
+
+/*---------------------prizes-------------------*/
+
+.prizes{
+	padding-top: 6%;
+	min-height: 590px;
+	max-height: 590px;
+	background-color: #e0ebef;
+	position: relative;
+}
+
+
+.prizes p{
+	position: relative;
+	font-size: 15pt !important;
+	font-family: "OpenSansRegular";
+	z-index: 14;
+	padding-left: 5%;
+	text-align: center;
+
+
+}
+.prizes h1{
+	position: relative;
+	z-index: 14;
+	font-size: 30pt;
+	font-family: "OpenSansLight";
+	margin-bottom: 10%;
+	margin-top: 5%;
+	padding-left: 5%;
+	text-align: center;
+}
+.MilaLandscape1{
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin-top: -120px;
+
+}
+.MilaPeople1{
+	margin-left: 5%;
+	margin-top: 50px;
+	height: 200px;
+
+}
+.col-lg-4{
+	padding-top: 00px;
+}
+.col-lg-6{
+	margin-top: 60px;
+}
+
+
+/*---------------------end---------------------*/
+
+/*---------------------add_prizes-------------------*/
+
+.additional_prizes{
+	background-color: #fff;
+	min-height: 800px;
+	max-height: 900px;
+
+}
+
+.name_div h1{
+	text-align: center;
+	font-size: 49,91pt;
+}
+
+.otstup{
+	padding-left: 5%;
+	text-align: center;
+}
+.blocktext{
+	margin-top: 10%;
+	font-size: 15pt;
+	text-align: left;
+	font-family: "OpenSansRegular";
+}
+.text{
+	margin-top: -20px;
+	margin-left: -20px;
+	text-align: center;
+}
+.circle{
+	margin-top: -20px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	padding: 7px;
+	margin-left: 40%;
+	background-color: #ff1f69;
+	border-radius: 80px;
+	color: #fff;
+	position: relative;
+	z-index: 10;
+}
+.circle p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 15pt;
+	font-weight: bold;
+}
+.buttonx{
+	position: absolute;
+	left: 30%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.buttonx a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+.col-lg-3{
+	margin-bottom: 50px !important;
+}
+.additional_prizes img {
+	height: 150px;
+	margin-left: -30px;
+}
+/*---------------------end---------------------*/
+
+/*----------------------------------------footer----------------------------------------*/
+
+.footer{
+	margin-top: 500px;
+	height: 100%;
+	width: 100%;
+	background-color: #ff1f69;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.itmg{
+	padding-top: 20px;
+}
+.text2 p{
+	text-align: left;
+	font-family: "OpenSansRegular";
+	font-size: 12pt !important;
+}
+
+/*----------------------------------------End----------------------------------------*/
+
+}
+
+
+
+
+/*----------------------------------------optimization 480 end--------------------------------------------------*/
+
+
+/*----------------------------------------optimization 640 start------------------------------------------------------------------------------------------*/
+
+
+
+@media screen and (min-width: 640px){
+/*---------------------header-------------------*/
+html{
+	-webkit-text-size-adjust: none;
+}
+.header{
+	background: linear-gradient(to top, #4278bb, #2650a6) no-repeat;
+	background-color: #4278bb;
+	height: 600px;
+	position: relative;
+	min-height: 600px;
+
+}
+
+.nav-menu a{
+	font-size: 8pt;
+	color: #adc1ea;
+	z-index: 10;
+}
+.nav-menu {
+	background-color: #25429c;
+	text-align: center;
+	height: 40px;
+	min-width: 50%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	margin-left: -20px;
+}
+ul li{
+	display: inline-block;
+	
+}
+ul li{
+	display: inline;
+}
+
+.logo{
+	text-align: center;
+	padding-top: 10px;
+	z-index: 10;
+}
+.textLogo{
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+}
+.mainText{
+	font-size: 35pt;
+	font-family: "OpenSansLight";
+	margin-bottom: 20px;
+
+}
+.rulesText{
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+}
+.imgMila{
+	width: 100%;
+	padding-bottom: 0px;
+	margin-top: 20px;
+}
+.MilaLandscape{
+	width: 100%;
+	z-index: 10;
+	text-align: center;
+	margin-top: 120px;
+}
+
+.MilaPeople{
+	z-index: 9;
+	margin-left: 50%;
+	margin-top: -220px;
+	height: 200px;
+	
+}
+
+.button{
+	position: absolute;
+	top: 65%;
+	left: 38%;
+	right: 10%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.button a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+/*---------------------end-------------------*/
+
+/*---------------------rules-------------------*/
+.rules{	
+	min-height: 490px;
+	max-height: 590px;
+	background-color: #fff;
+	margin-bottom: 5%;
+}
+.block1{
+
+}
+
+.block1 h1{
+	position: relative;
+	z-index: 14;
+	text-align: center;
+	padding-top: 15%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	font-size: 30pt;
+	font-family: "OpenSansLight";
+}
+
+.block1 p{
+	position: relative;
+	z-index: 14;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 13pt !important;
+	font-family: Open Sans; 
+	font-family: "OpenSansLight";
+}
+.ButtonQ{
+	margin-top: 40px;
+}
+.block2 .item1 .item2 .item3{
+	position: relative;
+	margin-top: 20%;
+}
+
+.item1{
+	position: relative;
+	z-index: 12;
+	margin-top: 90px;
+	margin-left: 280px;
+	height: 230px;
+}
+.item2{
+	position: relative;
+	margin-top: -340px;
+	z-index: 11;
+	margin-left: 150px;
+	height: 200px;
+}
+.item3{
+	position: relative;
+	margin-top: -500px;
+	margin-left: 370px;
+	z-index: 10;
+}
+.buttonq{
+	position: absolute;
+	top: 100%;
+	left: 39%;
+	text-align: center;
+	z-index: 100;
+	background-color: #3a66b0;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 40px;
+}
+.buttonq a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: #fff;
+	text-decoration: none !important;
+}
+/*---------------------end-------------------*/
+
+
+/*---------------------prizes-------------------*/
+
+.prizes{
+	padding-top: 6%;
+	min-height: 590px;
+	max-height: 590px;
+	background-color: #e0ebef;
+	position: relative;
+}
+
+
+.prizes p{
+	position: relative;
+	font-size: 15pt !important;
+	font-family: "OpenSansRegular";
+	z-index: 14;
+	padding-left: 5%;
+	text-align: center;
+
+
+}
+.prizes h1{
+	position: relative;
+	z-index: 14;
+	font-size: 30pt;
+	font-family: "OpenSansLight";
+	margin-bottom: 10%;
+	margin-top: 5%;
+	padding-left: 5%;
+	text-align: center;
+}
+.MilaLandscape1{
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin-top: -150px;
+
+}
+.MilaPeople1{
+	position: relative;
+	z-index: 1;
+	margin-left: 5%;
+	margin-top: 80px;
+	height: 200px;
+
+}
+.col-lg-4{
+	padding-top: 00px;
+}
+.col-lg-6{
+	margin-top: 60px;
+}
+
+
+/*---------------------end---------------------*/
+
+/*---------------------add_prizes-------------------*/
+
+.additional_prizes{
+	background-color: #fff;
+	min-height: 800px;
+	max-height: 900px;
+
+}
+
+.name_div h1{
+	text-align: center;
+	font-size: 49,91pt;
+}
+
+.otstup{
+	padding-left: 5%;
+	text-align: center;
+}
+.blocktext{
+	margin-top: 10%;
+	font-size: 15pt;
+	text-align: left;
+	font-family: "OpenSansRegular";
+}
+.text{
+	margin-top: -20px;
+	margin-left: -20px;
+	text-align: center;
+}
+.circle{
+	margin-top: -20px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	padding: 7px;
+	margin-left: 43%;
+	background-color: #ff1f69;
+	border-radius: 80px;
+	color: #fff;
+	position: relative;
+	z-index: 10;
+}
+.circle p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 15pt;
+	font-weight: bold;
+}
+.buttonx{
+	position: absolute;
+	left: 37%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.buttonx a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+.col-lg-3{
+	margin-bottom: 50px !important;
+}
+.additional_prizes img {
+	height: 150px;
+	margin-left: -30px;
+}
+/*---------------------end---------------------*/
+
+/*----------------------------------------footer----------------------------------------*/
+
+.footer{
+	margin-top: 500px;
+	height: 100%;
+	width: 100%;
+	background-color: #ff1f69;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.itmg{
+	padding-top: 20px;
+}
+.text2 p{
+	text-align: left;
+	font-family: "OpenSansRegular";
+	font-size: 12pt !important;
+}
+
+/*----------------------------------------End----------------------------------------*/
+
+}
+
+
+
+
+/*----------------------------------------optimization 640 end--------------------------------------------------*/
+
+
+
+/*----------------------------------------optimization 768 start------------------------------------------------------------------------------------------*/
+
+
+
+@media screen and (min-width: 768px){
+/*---------------------header-------------------*/
+html{
+	-webkit-text-size-adjust: none;
+}
+.header{
+	background: linear-gradient(to top, #4278bb, #2650a6) no-repeat;
+	background-color: #4278bb;
+	height: 600px;
+	position: relative;
+	min-height: 600px;
+
+}
+
+.nav-menu a{
+	font-size: 8pt;
+	color: #adc1ea;
+	z-index: 10;
+}
+.nav-menu {
+	background-color: #25429c;
+	text-align: center;
+	height: 40px;
+	min-width: 50%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	margin-left: -20px;
+}
+ul li{
+	display: inline-block;
+	
+}
+ul li{
+	display: inline;
+}
+
+.logo{
+	text-align: center;
+	padding-top: 10px;
+	z-index: 10;
+}
+.textLogo{
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+}
+.mainText{
+	font-size: 35pt;
+	font-family: "OpenSansLight";
+	margin-bottom: 20px;
+
+}
+.rulesText{
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 13pt;
+	font-family: "OpenSansRegular";
+}
+.imgMila{
+	width: 100%;
+	padding-bottom: 0px;
+	margin-top: 20px;
+}
+.MilaLandscape{
+	width: 100%;
+	z-index: 10;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.MilaPeople{
+	z-index: 9;
+	margin-left: 50%;
+	margin-top: -220px;
+	height: 200px;
+	
+}
+
+.button{
+	position: absolute;
+	top: 65%;
+	left: 40%;
+	right: 10%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.button a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+/*---------------------end-------------------*/
+
+/*---------------------rules-------------------*/
+.rules{	
+	min-height: 490px;
+	max-height: 590px;
+	background-color: #fff;
+	margin-bottom: 5%;
+}
+.block1{
+
+}
+
+.block1 h1{
+	position: relative;
+	z-index: 14;
+	text-align: center;
+	padding-top: 15%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	font-size: 30pt;
+	font-family: "OpenSansLight";
+}
+
+.block1 p{
+	position: relative;
+	z-index: 14;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 13pt !important;
+	font-family: Open Sans; 
+	font-family: "OpenSansLight";
+}
+.ButtonQ{
+	margin-top: 40px;
+}
+.block2 .item1 .item2 .item3{
+	position: relative;
+	margin-top: 20%;
+}
+
+.item1{
+	position: relative;
+	z-index: 12;
+	margin-top: 90px;
+	margin-left: 380px;
+	height: 250px;
+}
+.item2{
+	position: relative;
+	margin-top: -340px;
+	z-index: 11;
+	margin-left: 250px;
+}
+.item3{
+	position: relative;
+	margin-top: -500px;
+	margin-left: 470px;
+	z-index: 10;
+}
+.buttonq{
+	position: absolute;
+	top: 100%;
+	left: 39%;
+	text-align: center;
+	z-index: 100;
+	background-color: #3a66b0;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 40px;
+}
+.buttonq a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: #fff;
+	text-decoration: none !important;
+}
+/*---------------------end-------------------*/
+
+
+/*---------------------prizes-------------------*/
+
+.prizes{
+	padding-top: 6%;
+	min-height: 550px;
+	max-height: 550px;
+	background-color: #e0ebef;
+	position: relative;
+}
+
+
+.prizes p{
+	position: relative;
+	font-size: 15pt !important;
+	font-family: "OpenSansRegular";
+	z-index: 14;
+	padding-left: 5%;
+	text-align: center;
+
+
+}
+.prizes h1{
+	position: relative;
+	z-index: 14;
+	font-size: 30pt;
+	font-family: "OpenSansLight";
+	margin-bottom: 10%;
+	margin-top: 5%;
+	padding-left: 5%;
+	text-align: center;
+}
+.MilaLandscape1{
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin-top: -180px;
+
+}
+.MilaPeople1{
+	margin-left: 5%;
+	margin-top: 40px;
+	height: 200px;
+
+}
+.col-lg-4{
+	padding-top: 00px;
+}
+.col-lg-6{
+	margin-top: 50px;
+}
+
+
+/*---------------------end---------------------*/
+
+/*---------------------add_prizes-------------------*/
+
+.additional_prizes{
+	background-color: #fff;
+	min-height: 800px;
+	max-height: 900px;
+
+}
+
+.name_div h1{
+	text-align: center;
+	font-size: 49,91pt;
+}
+
+.otstup{
+	padding-left: 5%;
+	text-align: center;
+}
+.blocktext{
+	margin-top: 10%;
+	font-size: 15pt;
+	text-align: left;
+	font-family: "OpenSansRegular";
+}
+.text{
+	margin-top: -20px;
+	margin-left: -20px;
+	text-align: center;
+}
+.circle{
+	margin-top: -20px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	padding: 7px;
+	margin-left: 45%;
+	background-color: #ff1f69;
+	border-radius: 80px;
+	color: #fff;
+	position: relative;
+	z-index: 10;
+}
+.circle p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 15pt;
+	font-weight: bold;
+}
+.buttonx{
+	position: absolute;
+	left: 40%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.buttonx a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+.col-lg-3{
+	margin-bottom: 50px !important;
+}
+.additional_prizes img {
+	height: 150px;
+	margin-left: -30px;
+}
+/*---------------------end---------------------*/
+
+/*----------------------------------------footer----------------------------------------*/
+
+.footer{
+	margin-top: 500px;
+	height: 100%;
+	width: 100%;
+	background-color: #ff1f69;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.itmg{
+	padding-top: 20px;
+}
+.text2 p{
+	text-align: left;
+	font-family: "OpenSansRegular";
+	font-size: 12pt !important;
+}
+
+/*----------------------------------------End----------------------------------------*/
+
+}
+
+
+
+
+/*----------------------------------------optimization 768 end--------------------------------------------------*/
+
+
+
+/*----------------------------------------optimization 1024 start------------------------------------------------------------------------------------------*/
+
+
+
+@media screen and (min-width: 1024px){
+/*---------------------header-------------------*/
+html{
+	-webkit-text-size-adjust: none;
+}
+.header{
+	background: linear-gradient(to top, #4278bb, #2650a6) no-repeat;
+	background-color: #4278bb;
+	height: 600px;
+	position: relative;
+	min-height: 600px;
+
+}
+
+.nav-menu a{
+	font-size: 10pt;
+	color: #adc1ea;
+	z-index: 10;
+}
+.nav-menu {
+	background-color: #25429c;
+	text-align: center;
+	height: 40px;
+	min-width: 50%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	margin-left: -20px;
+}
+ul li{
+	display: inline-block;
+	
+}
+ul li{
+	display: inline;
+}
+
+.logo{
+	text-align: center;
+	padding-top: 10px;
+	z-index: 10;
+}
+.textLogo{
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+}
+.mainText{
+	font-size: 40pt;
+	font-family: "OpenSansLight";
+	margin-bottom: 20px;
+
+}
+.rulesText{
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 13pt;
+	font-family: "OpenSansRegular";
+}
+.imgMila{
+	width: 100%;
+	padding-bottom: 0px;
+	margin-top: 20px;
+}
+.MilaLandscape{
+	width: 100%;
+	z-index: 10;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.MilaPeople{
+	z-index: 9;
+	margin-left: 50%;
+	margin-top: -220px;
+	height: 200px;
+	
+}
+
+.button{
+	position: absolute;
+	top: 65%;
+	left: 40%;
+	right: 10%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.button a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+/*---------------------end-------------------*/
+
+/*---------------------rules-------------------*/
+.rules{	
+	min-height: 490px;
+	max-height: 590px;
+	background-color: #fff;
+	margin-bottom: 5%;
+}
+.block1{
+
+}
+
+.block1 h1{
+	position: relative;
+	z-index: 14;
+	text-align: center;
+	padding-top: 15%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	font-size: 30pt;
+	font-family: "OpenSansLight";
+}
+
+.block1 p{
+	position: relative;
+	z-index: 14;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 13pt !important;
+	font-family: Open Sans; 
+	font-family: "OpenSansLight";
+}
+.ButtonQ{
+	margin-top: 40px;
+}
+.block2 .item1 .item2 .item3{
+	position: relative;
+	margin-top: 20%;
+}
+
+.item1{
+	position: relative;
+	z-index: 12;
+	margin-top: 90px;
+	margin-left: 580px;
+}
+.item2{
+	position: relative;
+	margin-top: -340px;
+	z-index: 11;
+	margin-left: 450px;
+}
+.item3{
+	position: relative;
+	margin-top: -500px;
+	margin-left: 670px;
+	z-index: 10;
+}
+.buttonq{
+	position: absolute;
+	top: 100%;
+	left: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #3a66b0;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 40px;
+}
+.buttonq a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: #fff;
+	text-decoration: none !important;
+}
+/*---------------------end-------------------*/
+
+
+/*---------------------prizes-------------------*/
+
+.prizes{
+	padding-top: 6%;
+	min-height: 550px;
+	max-height: 550px;
+	background-color: #e0ebef;
+	position: relative;
+}
+
+
+.prizes p{
+	position: relative;
+	font-size: 15pt !important;
+	font-family: "OpenSansRegular";
+	z-index: 14;
+	padding-left: 5%;
+	text-align: center;
+
+
+}
+.prizes h1{
+	position: relative;
+	z-index: 14;
+	font-size: 30pt;
+	font-family: "OpenSansLight";
+	margin-bottom: 10%;
+	margin-top: 5%;
+	padding-left: 5%;
+	text-align: center;
+}
+.MilaLandscape1{
+	position: relative;
+	z-index: 0;
+	width: 100%;	
+	margin-top: -230px;
+
+}
+.MilaPeople1{
+	margin-left: 5%;
+	margin-top: 30px;
+	height: 200px;
+
+}
+.col-lg-4{
+	padding-top: 00px;
+}
+.col-lg-6{
+	margin-top: 50px;
+}
+
+
+/*---------------------end---------------------*/
+
+/*---------------------add_prizes-------------------*/
+
+.additional_prizes{
+	background-color: #fff;
+	min-height: 800px;
+	max-height: 900px;
+
+}
+
+.name_div h1{
+	text-align: center;
+	font-size: 49,91pt;
+}
+
+.otstup{
+	padding-left: 5%;
+	text-align: center;
+}
+.blocktext{
+	margin-top: 10%;
+	font-size: 15pt;
+	text-align: left;
+	font-family: "OpenSansRegular";
+}
+.text{
+	margin-top: -20px;
+	margin-left: -40px;
+	
+}
+.circle{
+	margin-top: -20px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	padding: 7px;
+	margin-left: 45%;
+	background-color: #ff1f69;
+	border-radius: 80px;
+	color: #fff;
+	position: relative;
+	z-index: 10;
+}
+.circle p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 15pt;
+	font-weight: bold;
+}
+.buttonx{
+	position: absolute;
+	left: 43%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 180px;
+	height: 40px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 1%;
+	margin-bottom: 5%;
+}
+.buttonx a{
+	font-size: 10pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+.col-lg-3{
+	margin-bottom: 50px !important;
+}
+.additional_prizes img {
+	height: 150px;
+	margin-left: -30px;
+}
+/*---------------------end---------------------*/
+
+/*----------------------------------------footer----------------------------------------*/
+
+.footer{
+	margin-top: 500px;
+	height: 100%;
+	width: 100%;
+	background-color: #ff1f69;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.itmg{
+	padding-top: 20px;
+}
+.text2 p{
+	text-align: left;
+	font-family: "OpenSansRegular";
+	font-size: 12pt !important;
+}
+
+/*----------------------------------------End----------------------------------------*/
+
+}
+
+
+
+
+/*----------------------------------------optimization 1024 end--------------------------------------------------*/
+
+
+
+/*----------------------------------------optimization 1366 start------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1366px){
+/*---------------------header-------------------*/
+.header{
+	background-color: #4278bb;
+	background: linear-gradient(to top, #4278bb, #2650a6) no-repeat;
+	height: 900px;
+	position: relative;
+	min-height: 800px;
+
+}
+
+
+
+.nav-menu a{
+	font-size: 13pt;
+	color: #adc1ea;
+	z-index: 10;
+}
+.nav-menu {
+	background-color: #25429c;
+	text-align: center;
+	height: 60px;
+	min-width: 50%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+ul li{
+	display: inline-block;
+	margin-right: 2%;
+}
+ul li{
+	display: inline;
+}
+
+.logo{
+	text-align: center;
+	padding-top: 60px;
+	z-index: 10;
+}
+.textLogo{
+	text-align: center;
+	color: #fff;
+		padding-top: 60px;
+}
+.mainText{
+	font-size: 60pt;
+	font-family: "OpenSansLight";
+
+}
+.rulesText{
+	font-size: 13pt;
+	font-family: "OpenSansRegular";
+}
+.imgMila{
+	width: 100%;
+	padding-bottom: 0px;
+	margin-top: 20px;
+}
+.MilaLandscape{
+	width: 100%;
+	z-index: 10;
+	text-align: center;
+	margin-top: 140px;
+}
+
+.MilaPeople{
+	z-index: 9;
+	margin-left: 60%;
+	margin-top: -220px;
+	
+}
+
+.button{
+	position: absolute;
+	top: 60%;
+	left: 38%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 330px;
+	height: 60px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.button a{
+	font-size: 20pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+
+/*----------------------------------------Header End----------------------------------------*/
+
+
+
+/*----------------------------------------Rules Start----------------------------------------*/
+
+.rules{	
+	min-height: 490px;
+	max-height: 590px;
+	background-color: #fff;
+	margin-bottom: 5%;
+}
+.block1{
+
+}
+
+.block1 h1{
+	font-size: 30pt;
+	font-family: "OpenSansLight";
+	text-align: left;
+}
+
+.block1 p{
+	font-size: 15pt !important;
+	font-family: Open Sans; 
+	font-family: "OpenSansLight";
+	text-align: left;
+	margin-left: -25px;
+}
+
+.block2 .item1 .item2 .item3{
+	position: relative;
+	margin-top: 20%;
+}
+
+.item1{
+	position: relative;
+	z-index: 12;
+	margin-top: 240px;
+	margin-left: 40px;
+}
+.item2{
+	position: relative;
+	margin-top: -340px;
+	z-index: 11;
+	margin-left: -40px
+}
+.item3{
+	position: relative;
+	margin-top: -500px;
+	margin-left: 170px;
+	z-index: 10;
+}
+.buttonq{
+	position: absolute;
+	top: 100%;
+	left: 7%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #3a66b0;
+	width: 330px;
+	height: 60px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.buttonq a{
+	font-size: 20pt;
+}
+/*----------------------------------------Rules End----------------------------------------*/
+
+
+
+/*----------------------------------------Prizes Start----------------------------------------*/
+.prizes{
+	padding-top: 6%;
+	min-height: 490px;
+	max-height: 590px;
+	background-color: #e0ebef;
+	position: relative;
+}
+
+.prizes p{
+	position: relative;
+	z-index: 12;
+	font-size: 13pt !important;
+	font-family: "OpenSansRegular";
+	text-align: left;
+
+}
+.prizes h1{
+	font-size: 40pt;
+	font-family: "OpenSansLight";
+	text-align: left;
+}
+.MilaLandscape1{
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin-top: -290px;
+
+}
+.MilaPeople1{
+	position: relative;
+	z-index: 10;
+	margin-left: 15%;
+	margin-top: -210px;
+	height: 400px;
+}
+.col-lg-4{
+	padding-top: 10px;
+}
+/*----------------------------------------Prizes End----------------------------------------*/
+
+
+
+/*----------------------------------------additional_prizes Start----------------------------------------*/
+
+.additional_prizes{
+	background-color: #fff;
+	min-height: 800px;
+	max-height: 900px;
+	position: relative;
+	margin-bottom: -550px;
+
+}
+
+.name_div h1{
+	text-align: center;
+	font-size: 49,91pt;
+}
+
+.otstup{
+	padding-left: 28%;
+	text-align: center;
+}
+.blocktext{
+	margin-top: 40px;
+	font-size: 17pt;
+	text-align: left;
+	font-family: "OpenSansRegular";
+}
+.circle{
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	padding: 7px;
+	background-color: #ff1f69;
+	border-radius: 80px;
+	color: #fff;
+	margin-left: -40px;
+}
+.circle p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18pt;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.buttonx{
+	position: absolute;
+	left: 38%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 330px;
+	height: 60px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 5%;
+}
+.buttonx a{
+	font-size: 20pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+/*----------------------------------------additional_prizes End----------------------------------------*/
+
+
+
+
+
+
+
+
+/*----------------------------------------footer End----------------------------------------*/
+
+.footer{
+	height: 100%;
+	width: 100%;
+	background-color: #ff1f69;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.itmg{
+	padding-top: 80px;
+}
+.text2 p{
+	text-align: left;
+	font-family: "OpenSansRegular";
+	font-size: 12pt !important;
+}
+
+/*----------------------------------------footer End----------------------------------------*/
+
+
+}
+/*----------------------------------------optimization 1366 end--------------------------------------------------*/
+
+
+
+
+
+
+/*----------------------------------------optimization 1280 start------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1270px){
+.header{
+	height: 900px;
+}
+
+.nav-menu a{
+	font-size: 13pt;
+	color: #adc1ea;
+	z-index: 10;
+}
+.nav-menu {
+	background-color: #25429c;
+	text-align: center;
+	height: 60px;
+	min-width: 50%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+ul li{
+	display: inline-block;
+	margin-right: 2%;
+}
+ul li{
+	display: inline;
+}
+
+.logo{
+	text-align: center;
+	padding-top: 60px;
+	z-index: 10;
+}
+.textLogo{
+	text-align: center;
+	color: #fff;
+		padding-top: 60px;
+}
+.mainText{
+	font-size: 60pt;
+	font-family: "OpenSansLight";
+
+}
+.rulesText{
+	font-size: 13pt;
+	font-family: "OpenSansRegular";
+}
+.imgMila{
+	width: 100%;
+	padding-bottom: 0px;
+	margin-top: 20px;
+}
+.MilaLandscape{
+	width: 100%;
+	z-index: 10;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.MilaPeople{
+	z-index: 9;
+	margin-left: 60%;
+	margin-top: -320px;
+	height: 300px;
+	
+}
+
+.button{
+	position: absolute;
+	top: 65%;
+	left: 38%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 330px;
+	height: 60px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.button a{
+	font-size: 20pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+
+/*----------------------------------------Header End----------------------------------------*/
+
+
+
+/*----------------------------------------Rules Start----------------------------------------*/
+
+.rules{	
+	min-height: 490px;
+	max-height: 590px;
+	background-color: #fff;
+	margin-bottom: 5%;
+}
+.block1{
+
+}
+
+.block1 h1{
+	padding-top: 20%;
+	padding-bottom: 5%;
+	font-size: 30pt;
+	font-family: "OpenSansLight";
+	text-align: left;
+	margin-left: -10px;
+}
+
+.block1 p{
+	font-size: 15pt !important;
+	font-family: Open Sans; 
+	font-family: "OpenSansLight";
+	text-align: left;
+	margin-left: -30px;
+}
+.ButtonQ{
+	margin-top: 20px;
+}
+.block2 .item1 .item2 .item3{
+	position: relative;
+	margin-top: 20%;
+}
+
+.item1{
+	z-index: 12;
+	margin-top: 240px;
+	margin-left: 60px;
+}
+.item2{
+	margin-top: -340px;
+	z-index: 11;
+	margin-left: -10px;
+}
+.item3{
+	margin-top: -500px;
+	margin-left: 150px;
+	z-index: 10;
+	height: 250px;
+}
+.buttonq{
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #3a66b0;
+	width: 330px;
+	height: 60px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.buttonq a{
+	font-size: 20pt;
+	font-family: "OpenSansRegular";
+	color: #fff;
+	text-decoration: none !important;
+}
+/*----------------------------------------Rules End----------------------------------------*/
+
+
+
+/*----------------------------------------Prizes Start----------------------------------------*/
+.prizes{
+	padding-top: 6%;
+	min-height: 490px;
+	max-height: 590px;
+	background-color: #e0ebef;
+	position: relative;
+}
+
+.prizes p{
+		position: relative;
+	z-index: 12;
+	font-size: 13pt !important;
+	font-family: "OpenSansRegular";
+	text-align: left;
+
+}
+.prizes h1{
+	position: relative;
+	z-index: 12;
+	font-size: 38pt;
+	font-family: "OpenSansLight";
+	margin-bottom: 5%;
+	margin-top: 5%;
+	text-align: left;
+}
+.MilaLandscape1{
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin-top: -280px;
+}
+.MilaPeople1{
+	position: relative;
+	z-index: 10;
+	margin-left: 10%;
+	margin-top: -130px;
+	height: 100%;
+}
+.col-lg-4{
+	padding-top: 10px;
+}
+/*----------------------------------------Prizes End----------------------------------------*/
+
+
+
+/*----------------------------------------additional_prizes Start----------------------------------------*/
+
+.additional_prizes{
+	background-color: #fff;
+	min-height: 800px;
+	max-height: 900px;
+	position: relative;
+	margin-bottom: -550px;
+
+}
+
+.name_div h1{
+	text-align: center;
+	font-size: 49,91pt;
+}
+
+.otstup{
+	padding-left: 30%;
+	text-align: center;
+}
+.blocktext{
+	margin-top: 40px;
+	font-size: 17pt;
+	text-align: left;
+	font-family: "OpenSansRegular";
+}
+.circle{
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	padding: 7px;
+	background-color: #ff1f69;
+	border-radius: 80px;
+	color: #fff;
+	margin-left: -50px;
+}
+.circle p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20pt;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.buttonx{
+	position: absolute;
+	left: 40%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 330px;
+	height: 60px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.buttonx a{
+	font-size: 20pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+/*----------------------------------------additional_prizes End----------------------------------------*/
+
+
+
+
+
+
+
+
+/*----------------------------------------footer End----------------------------------------*/
+
+.footer{
+	height: 100%;
+	width: 100%;
+	background-color: #ff1f69;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.itmg{
+	padding-top: 70px;
+}
+.text2 p{
+	text-align: left;
+	font-family: "OpenSansRegular";
+	font-size: 12pt !important;
+}
+
+/*----------------------------------------footer End----------------------------------------*/
+
+}
+/*----------------------------------------optimization 1280 end--------------------------------------------------*/
+
+
+/*----------------------------------------optimization 1700 start------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1700px){
+/*---------------------header-------------------*/
+.header{
+	background-color: #4278bb;
+	background: linear-gradient(to top, #4278bb, #2650a6) no-repeat;
+	height: 900px;
+	position: relative;
+	min-height: 800px;
+
+}
+
+
+
+.nav-menu a{
+	font-size: 13pt;
+	color: #adc1ea;
+	z-index: 10;
+}
+.nav-menu {
+	background-color: #25429c;
+	text-align: center;
+	height: 60px;
+	min-width: 50%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+ul li{
+	display: inline-block;
+	margin-right: 2%;
+}
+ul li{
+	display: inline;
+}
+
+.logo{
+	text-align: center;
+	padding-top: 60px;
+	z-index: 10;
+	margin-bottom: 40px;
+}
+.textLogo{
+	text-align: center;
+	color: #fff;
+	padding-top: 60px;
+}
+.mainText{
+	font-size: 60pt;
+	font-family: "OpenSansLight";
+
+}
+.rulesText{
+	font-size: 13pt;
+	font-family: "OpenSansRegular";
+}
+.imgMila{
+	width: 100%;
+	padding-bottom: 0px;
+	margin-top: 20px;
+}
+.MilaLandscape{
+	width: 100%;
+	z-index: 10;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.MilaPeople{
+	z-index: 9;
+	margin-left: 60%;
+	margin-top: -390px;
+	height: 100%;
+	
+}
+
+.button{
+	position: absolute;
+	top: 60%;
+	left: 38%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 330px;
+	height: 60px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.button a{
+	font-size: 20pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+
+/*----------------------------------------Header End----------------------------------------*/
+
+
+
+/*----------------------------------------Rules Start----------------------------------------*/
+
+.rules{	
+	min-height: 600px;
+	max-height: 700px;
+	background-color: #fff;
+	margin-bottom: 5%;
+	padding-top: 5%;
+}
+.block1{
+
+}
+
+.block1 h1{
+	font-size: 40pt;
+	font-family: "OpenSansLight";
+	text-align: left;
+	margin-left: 5px;
+}
+
+.block1 p{
+	font-size: 15pt !important;
+	font-family: Open Sans; 
+	font-family: "OpenSansLight";
+	text-align: left;
+	margin-left: -25px;
+}
+
+.block2 .item1 .item2 .item3{
+	position: relative;
+	margin-top: 20%;
+
+}
+
+.item1{
+	position: relative;
+	z-index: 12;
+	margin-top: 240px;
+	margin-left: 40px;
+}
+.item2{
+	position: relative;
+	margin-top: -340px;
+	z-index: 11;
+	margin-left: -40px
+}
+.item3{
+	position: relative;
+	margin-top: -500px;
+	margin-left: 170px;
+	z-index: 10;
+
+}
+.buttonq{
+	position: absolute;
+	top: 100%;
+	left: 7%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #3a66b0;
+	width: 330px;
+	height: 60px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+
+}
+.buttonq a{
+	font-size: 20pt;
+}
+/*----------------------------------------Rules End----------------------------------------*/
+
+
+
+/*----------------------------------------Prizes Start----------------------------------------*/
+.prizes{
+	padding-top: 6%;
+	min-height: 600px;
+	max-height: 700px;
+	background-color: #e0ebef;
+	position: relative;
+}
+
+.prizes p{
+	position: relative;
+	z-index: 12;
+	font-size: 13pt !important;
+	font-family: "OpenSansRegular";
+	text-align: left;
+
+}
+.prizes h1{
+	font-size: 40pt;
+	font-family: "OpenSansLight";
+	text-align: left;
+}
+.MilaLandscape1{
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin-top: -395px;
+
+}
+.MilaPeople1{
+	position: relative;
+	z-index: 10;
+	margin-left: 25%;
+	margin-top: -100px;
+	height: 100%;
+}
+.col-lg-4{
+	padding-top: 10px;
+}
+/*----------------------------------------Prizes End----------------------------------------*/
+
+
+
+/*----------------------------------------additional_prizes Start----------------------------------------*/
+
+.additional_prizes{
+	background-color: #fff;
+	min-height: 800px;
+	max-height: 900px;
+	position: relative;
+	margin-bottom: -550px;
+
+}
+
+.name_div h1{
+	text-align: center;
+	font-size: 49,91pt;
+	margin-left: -170px;
+}
+
+.otstup{
+	padding-left: 20%;
+	text-align: center;
+}
+.blocktext{
+	margin-top: 40px;
+	font-size: 17pt;
+	text-align: left;
+	font-family: "OpenSansRegular";
+}
+.circle{
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	padding: 7px;
+	background-color: #ff1f69;
+	border-radius: 80px;
+	color: #fff;
+	margin-left: -10px;
+}
+.circle p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18pt;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.buttonx{
+	position: absolute;
+	left: 38%;
+	right: 45%;
+	text-align: center;
+	z-index: 100;
+	background-color: #ffd919;
+	width: 330px;
+	height: 60px;
+	border-radius: 80px;
+	box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	cursor: pointer;
+	margin-top: 5%;
+}
+.buttonx a{
+	font-size: 20pt;
+	font-family: "OpenSansRegular";
+	color: black;
+	text-decoration: none !important;
+}
+/*----------------------------------------additional_prizes End----------------------------------------*/
+
+
+
+
+
+
+
+
+/*----------------------------------------footer End----------------------------------------*/
+
+.footer{
+	height: 100%;
+	width: 100%;
+	background-color: #ff1f69;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.itmg{
+	padding-top: 80px;
+}
+.text2 p{
+	text-align: left;
+	font-family: "OpenSansRegular";
+	font-size: 12pt !important;
+}
+
+/*----------------------------------------footer End----------------------------------------*/
+
+
+}
+/*----------------------------------------optimization 1700 end--------------------------------------------------*/
+
+
+
+/*----------------------------------------FONTS----------------------------------------*/
+/* font-family: "OpenSansRegular"; */
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansLight"; */
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansItalic"; */
+@font-face {
+    font-family: "OpenSansItalic";
+    src: url("../fonts/OpenSansItalic/OpenSansItalic.eot");
+    src: url("../fonts/OpenSansItalic/OpenSansItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"),
+    url("../fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansBold"; */
+@font-face {
+    font-family: "OpenSansBold";
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+    url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansExtraBold"; */
+@font-face {
+    font-family: "OpenSansExtraBold";
+    src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot");
+    src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"),
+    url("../fonts/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansExtraBoldItalic"; */
+@font-face {
+    font-family: "OpenSansExtraBoldItalic";
+    src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot");
+    src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"),
+    url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansBoldItalic"; */
+@font-face {
+    font-family: "OpenSansBoldItalic";
+    src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot");
+    src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff") format("woff"),
+    url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansRegularItalic"; */
+@font-face {
+    font-family: "OpenSansRegularItalic";
+    src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot");
+    src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.woff") format("woff"),
+    url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansSemiBold"; */
+@font-face {
+    font-family: "OpenSansSemiBold";
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansSemiBoldItalic"; */
+@font-face {
+    font-family: "OpenSansSemiBoldItalic";
+    src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot");
+    src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff") format("woff"),
+    url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
